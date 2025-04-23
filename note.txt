@@ -1,0 +1,11 @@
+>>>>> For Tausif
+- Firstly You need to clone the Repo from GitHub
+- After that create a new Branch 
+- Then Clone the "Src" folder and Use it in your test local repo which you will create alongside this clone repo
+(Which we've discussed - That you will create 2 repos 1 will be cloned one and another is your local one in which you will start the development )
+- After making all the changes you will create a new folder in this Repo Called Tausif_Src in which you will paste all the components files and folders
+- Then commit the changes
+- After that I will Review and will merge the code
+- Then We'll Deploy the site.
+
+Repo name - Phase one _ 1  (something like this)
