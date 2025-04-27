@@ -9,3 +9,7 @@
 - Then We'll Deploy the site.
 
 Repo name - Phase one _ 1  (something like this)
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>> Notes for Talib
+Need to Install emailJS

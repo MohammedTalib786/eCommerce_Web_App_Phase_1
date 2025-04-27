@@ -6,7 +6,7 @@ const ProductCard = () => {
 
         <div className="prod_card relative flex flex-col gap-[12px] pb-[20px]  cursor-pointer  " >
 
-            <img src="https://www.tintaccessories.com/wp-content/uploads/2024/01/MagPop-JPEG-1024x1024.jpg" alt="prod-img" className='h-[360px] object-cover ' />
+            <img src="https://www.tintaccessories.com/wp-content/uploads/2024/01/MagPop-JPEG-1024x1024.jpg" alt="prod-img" className=' h-[360px] object-cover ' />
 
             <div className="texts flex justify-between ">
                 <h3 className='text-[20px]/[26px] uppercase ' >Product Name</h3>

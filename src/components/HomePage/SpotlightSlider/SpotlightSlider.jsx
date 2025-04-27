@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+
 import Slides from './Slides';
 
 
@@ -26,7 +27,7 @@ const SpotlightSlider = () => {
     ]
 
     return (
-        <div className=" ">
+        <div className=" bg-[#F6F6F6] ">
 
 
             <Swiper
