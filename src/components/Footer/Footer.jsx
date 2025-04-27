@@ -2,10 +2,12 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className="tracking-wide bg-[#1e2d3b] pt-12 pb-4 px-10">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-screen-xl mx-auto">
-                <div>
+        <footer className=" head_foot_cont_full  tracking-wide bg-[#1e2d3b] pt-12 pb-4 px-10">
+            <div className=" head_foot_cont grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-screen-xl mx-auto">
+                <div className='' >
+
                     <h4 className="text-[#FFA726] font-medium text-sm mb-6">Quick Links</h4>
+
                     <ul className="space-y-4">
                         <li>
                             <a href="javascript:void(0)" className="hover:text-[#FFA726] text-gray-400 text-sm font-normal transition-all">Our Story</a>
@@ -22,8 +24,10 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div>
+                <div className='' >
+
                     <h4 className="text-[#FFA726] font-medium text-sm mb-6">Services</h4>
+
                     <ul className="space-y-4">
                         <li>
                             <a href="javascript:void(0)" className="hover:text-[#FFA726] text-gray-400 text-sm font-normal transition-all">Web Development</a>
@@ -77,8 +81,8 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="border-t text-center border-[#6b5f5f] pt-4 mt-8">
-                <p className="text-gray-400 text-sm">
+            <div className=" head_foot_cont border-t text-center border-[#6b5f5f] mt-8">
+                <p className="text-gray-400 text-sm pt-4 " >
                     © ReadymadeUI. All rights reserved.
                 </p>
             </div>
