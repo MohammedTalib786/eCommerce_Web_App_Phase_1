@@ -3,9 +3,9 @@ import Button from '../../Button'
 
 const NewsLetter = () => {
   return (
-    <div className=" bg-[#212529] w-full mx-auto px-[50px] py-[100px]   ">
+    <div className=" bg-[#212529] w-full mx-auto  ">
 
-      <div className="  w-full max-w-[1440px] mx-auto flex justify-between items-center  ">
+      <div className="  w-full max-w-[1440px] px-[50px] py-[100px] mx-auto flex justify-between items-center  ">
 
         <div className="text flex flex-col gap-[6px] w-full  ">
           <h3 className='text-white text-[32px]/[40px] uppercase ' >Subscribe Us Now</h3>

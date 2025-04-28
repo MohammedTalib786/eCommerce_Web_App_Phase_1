@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className=" head_foot_cont_full  tracking-wide bg-[#1e2d3b] pt-12 pb-4 px-10">
+        <footer className=" head_foot_cont_full  tracking-wide bg-[#1e2d3b] pt-12 pb-4  ">
             <div className=" head_foot_cont grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-screen-xl mx-auto">
                 <div className='' >
 
@@ -81,7 +81,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className=" head_foot_cont border-t text-center border-[#6b5f5f] mt-8">
+            <div className=" head_foot_cont border-t text-center border-[#6b5f5f] mt-8 mx-auto ">
                 <p className="text-gray-400 text-sm pt-4 " >
                     © ReadymadeUI. All rights reserved.
                 </p>

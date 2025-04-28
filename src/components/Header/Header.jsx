@@ -5,7 +5,7 @@ import '../../index.css'
 
 const Header = () => {
     return (
-        <header className=' head_foot_cont_full flex border-b border-gray-300 py-3 px-4 sm:px-10 bg-white min-h-[65px] tracking-wide relative z-50'>
+        <header className=' head_foot_cont_full flex border-b border-gray-300 py-3  bg-white min-h-[65px] tracking-wide relative z-50'>
             <div className=' head_foot_cont flex flex-wrap items-center gap-4 max-w-screen-xl mx-auto w-full'>
                 <Link to="/" className="max-sm:hidden"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" className='w-[134px]' /></Link>
                 <Link to="/" className="hidden max-sm:block"><img src="https://readymadeui.com/readymadeui-short.svg" alt="logo" className='w-8' /></Link>
@@ -36,6 +36,12 @@ const Header = () => {
                         </li>
                         <li className='max-lg:border-b max-lg:py-3 px-3'>
                             <NavLink to='/blogs' className={ ({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : "font-medium lg:hover:text-blue-700 text-slate-900 block text-[16px]" } >Blogs</NavLink>
+                        </li>
+                        <li className='max-lg:border-b max-lg:py-3 px-3'>
+                            <NavLink to='/products' className={ ({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : "font-medium lg:hover:text-blue-700 text-slate-900 block text-[16px]" } >Products</NavLink>
+                        </li>
+                        <li className='max-lg:border-b max-lg:py-3 px-3'>
+                            <NavLink to='/cart' className={ ({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : "font-medium lg:hover:text-blue-700 text-slate-900 block text-[16px]" } >Cart</NavLink>
                         </li>
                         
                     </ul>
