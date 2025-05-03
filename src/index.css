@@ -6,8 +6,10 @@
     --white-color: white;
 }
 
+
 html {
     font-family: Poppins;
+    scroll-behavior: smooth;
 }
 
 /* .head_foot_cont_full {
@@ -21,6 +23,7 @@ html {
     max-width: 1440px;
     padding: 0 50px;
 }
+
 /* 
 @media (min-width: 1441px) {
     .head_foot_cont {
@@ -30,5 +33,3 @@ html {
 /* footer.head_foot_cont_full {
     padding: 30px 50px;
 } */
-
-

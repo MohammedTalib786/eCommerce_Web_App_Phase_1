@@ -13,3 +13,18 @@ Repo name - Phase one _ 1  (something like this)
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>> Notes for Talib
 Need to Install emailJS
+
+
+Functionalities we can achieve using only GET_API of Products:
+- Product Listings
+- Product Detail Page
+- Showing different Categories
+- Featured Products on Home Page
+- Add to Cart Functionality
+- Wishlist Functionality
+- Search Functionality
+- Payment Method: Stripe Payment Gateway
+- Admin Dashboard
+
+>>> for Admin Logic Routing:
+https://reactrouter.com/start/declarative/navigating

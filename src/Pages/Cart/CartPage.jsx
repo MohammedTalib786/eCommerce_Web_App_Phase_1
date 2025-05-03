@@ -1,5 +1,4 @@
 import React from 'react'
-import Products from '../Products/Products'
 import { useCart } from '../../contexts/ProdProvider'
 import CartCard from '../../components/CartCard/CartCard'
 
