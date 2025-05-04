@@ -8,20 +8,20 @@ const Loader = () => {
             {/* >>>>>>>>>>>>>> In Cont */}
             <div className=" w-full flex justify-center items-center gap-[20px]  " >
 
-                <span class="loader  " ></span>
-                <span class="loader  " ></span>
-                <span class="loader  " ></span>
-                <span class="loader  " ></span>
+                <span className="loader  " ></span>
+                <span className="loader  " ></span>
+                <span className="loader  " ></span>
+                <span className="loader  " ></span>
 
             </div>
 
             {/* >>>>>>>>>>>>>> In Cont */}
             <div className=" w-full flex justify-center items-center gap-[20px] mt-[30px]  "  >
 
-                <span class="loader  " ></span>
-                <span class="loader  " ></span>
-                <span class="loader  " ></span>
-                <span class="loader  " ></span>
+                <span className="loader  " ></span>
+                <span className="loader  " ></span>
+                <span className="loader  " ></span>
+                <span className="loader  " ></span>
 
             </div>
 

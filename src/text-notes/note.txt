@@ -12,12 +12,13 @@ Repo name - Phase one _ 1  (something like this)
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>> Notes for Talib
-Need to Install emailJS
+- Need to Install emailJS (DONE)
+- and Integrate it with subscribe now section and Contact Us Form
 
 
 Functionalities we can achieve using only GET_API of Products:
-- Product Listings
-- Product Detail Page
+- Product Listings (DONE)
+- Product Detail Page (DONE)
 - Showing different Categories
 - Featured Products on Home Page
 - Add to Cart Functionality
@@ -28,3 +29,10 @@ Functionalities we can achieve using only GET_API of Products:
 
 >>> for Admin Logic Routing:
 https://reactrouter.com/start/declarative/navigating
+
+
+
+>>>>> New Addons
+- can use custom hook for fetching api as we need to call the api multiple times
+- IN PDP can use a widget for "share product"
+- Also Try to add a scroll to top button (DONE)

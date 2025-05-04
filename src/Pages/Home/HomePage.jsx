@@ -6,6 +6,7 @@ import InformationComp from '../../components/HomePage/InformationComp/Informati
 
 import NewsLetter from '../../components/HomePage/NewsLetter/NewsLetter'
 import ProductSlider from '../../components/ProductSlider/ProductSlider'
+import FeatProductSlider from '../../components/FeatProductSlider/FeatProductSlider'
 import BlogSlider from '../../components/BlogSlider/BlogSlider'
 import Testimonials from '../../components/HomePage/Testimonials/Testimonials'
 import InstaFeed from '../../components/HomePage/InstagramSec/InstaFeed'
@@ -21,11 +22,14 @@ const Home = () => {
                 {/* >>>>>>>>>>>>>> Information Comp */}
                 <InformationComp />
 
+                {/* >>>>>>>>>>>>>> Featured Prod Slider */}
+                <FeatProductSlider title="Featured Products" urlText="GO TO SHOP" urlVal="/products"   />
+
                 {/* >>>>>>>>>>>>>> Mobile Prod Slider */}
-                <ProductSlider title="Mobile Products" urlText="GO TO SHOP" urlVal="/products" />
+                <ProductSlider title="Mobile Products" urlText="GO TO SHOP" urlVal="/products" categoryName="Covers and Cases" />
 
                 {/* >>>>>>>>>>>>>> Watch Prod Slider */}
-                <ProductSlider title="Watch Products" urlText="GO TO SHOP" urlVal="/products" />
+                <ProductSlider title="Watch Products" urlText="GO TO SHOP" urlVal="/products" categoryName="Stand and Straps" />
 
             </div>
 
@@ -40,7 +44,6 @@ const Home = () => {
 
             {/* >>>>>>>>>>>>>> Full Width Newsletter */}
             <NewsLetter />
-
 
             {/* >>>>>>>>>>>>>> In Cont */}
             <div className="container_layout mx-auto flex justify-center items-center flex-col  "  >

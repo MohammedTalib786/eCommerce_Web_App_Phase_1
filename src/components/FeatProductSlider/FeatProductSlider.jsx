@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+
+import '../ProductSlider/productSlider.css'
 
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -6,19 +9,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+import ProductCard from '../ProductCard/ProductCard';
 
-import './productSlider.css'
-import ProductCard from '../ProductCard/ProductCard'
-import { Link } from 'react-router-dom';
-
-
-const ProductSlider = ({
-
+const FeatProductSlider = ({
     title,
     urlText,
     urlVal,
-    categoryName,
-    isFeatCollecion = false
+    isFeatCollecion = true
 }) => {
 
     let [data, setProdData] = useState([])
@@ -31,18 +28,17 @@ const ProductSlider = ({
             setProdData(res)
         })()
 
+
     }, [])
-    // console.log('setted data', data)
 
     let filteredData = data.filter((elem) => {
-        return elem.category == categoryName
+        return elem.featured_col
     })
 
-    // console.log('filteredData Final ', filteredData)
+    // console.log('Feat Col new Data', newData)
 
 
     return (
-
         <div className=' w-full py-[50px]' >
 
             <div className="texts flex items-center justify-between pb-[20px] ">
@@ -70,7 +66,7 @@ const ProductSlider = ({
                 >
                     {
                         filteredData.map((elem) => {
-                            return <SwiperSlide> <ProductCard name={elem.name} price={elem.price.sale_price} featImg={elem.feat_img} urlToProd={elem.slug}  /> </SwiperSlide>
+                            return <SwiperSlide> <ProductCard name={elem.name} price={elem.price.sale_price} featImg={elem.feat_img} urlToProd={elem.slug} /> </SwiperSlide>
                         })
                     }
 
@@ -83,4 +79,4 @@ const ProductSlider = ({
     )
 }
 
-export default ProductSlider
+export default FeatProductSlider
